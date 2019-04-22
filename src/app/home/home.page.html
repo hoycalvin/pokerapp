@@ -1,0 +1,122 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Poker Hands By Ranking
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div padding>
+  <ion-list>
+    <ion-row size-md="6">
+  
+        <ion-card-content>
+
+          <!-- Royal Flush item-->
+          <ion-item [routerLink]="['/royalf']" routerDirection="forward" animated="true" canGoBack="true">
+            <b> 1) </b>
+            <img src="assets/img/royalflush.PNG">
+            <ion-button fill="none"> 
+              <ion-icon slot="end" name="add"></ion-icon> 
+              Royal Flush
+            </ion-button>
+          </ion-item>
+          
+          <!-- Straight Flush item -->
+          <ion-item [routerLink]="['/straightf']" routerDirection="forward" animated="true" canGoBack="true">
+            <b> 2) </b>
+            <img src="assets/img/straightflush.PNG">
+            <ion-button fill="none"> 
+              <ion-icon slot="end" name="add"></ion-icon> 
+              Straight Flush
+            </ion-button>
+          </ion-item>
+ 
+          <!-- Four of a Kind item -->
+          <ion-item [routerLink]="['/fourkind']" routerDirection="forward" animated="true" canGoBack="true">
+            <b> 3) </b>
+            <img src="assets/img/fourofakind.PNG">
+            <ion-button fill="none"> 
+              <ion-icon slot="end" name="add"></ion-icon> 
+              Four Kind
+            </ion-button>
+          </ion-item>
+
+          <!-- Full House item -->
+          <ion-item [routerLink]="['/fullhouse']" routerDirection="forward" animated="true" canGoBack="true">
+            <b> 4) </b>
+            <img src="assets/img/fullhouse.PNG">
+            <ion-button fill="none"> 
+              <ion-icon slot="end" name="add"></ion-icon> 
+              Full House
+            </ion-button>
+          </ion-item>
+
+          <!-- Flush item -->
+          <ion-item [routerLink]="['/flush']" routerDirection="forward" animated="true" canGoBack="true">
+            <b> 5) </b>
+            <img src="assets/img/flush.PNG">
+            <ion-button fill="none"> 
+              <ion-icon slot="end" name="add"></ion-icon> 
+              Flush
+            </ion-button>
+          </ion-item>
+
+          <!-- Straight item -->
+          <ion-item [routerLink]="['/straight']" routerDirection="forward" animated="true" canGoBack="true">
+            <b> 6) </b>
+            <img src="assets/img/straight.PNG">
+            <ion-button fill="none"> 
+              <ion-icon slot="end" name="add"></ion-icon> 
+              Straight
+            </ion-button>
+          </ion-item>
+
+          <!-- Three of a Kind item -->
+          <ion-item [routerLink]="['/threekind']" routerDirection="forward" animated="true" canGoBack="true">
+            <b> 7) </b>
+            <img src="assets/img/threeofakind.PNG">
+            <ion-button fill="none"> 
+              <ion-icon slot="end" name="add"></ion-icon> 
+              Three Kind
+            </ion-button>
+          </ion-item>
+
+          <!-- Two Pair item -->
+          <ion-item [routerLink]="['/twopair']" routerDirection="forward" animated="true" canGoBack="true">
+            <b> 8) </b>
+            <img src="assets/img/twopair.PNG">
+            <ion-button fill="none"> 
+              <ion-icon slot="end" name="add"></ion-icon> 
+              Two Pair
+            </ion-button>
+          </ion-item>
+
+          <!-- One Pair item -->
+          <ion-item [routerLink]="['/onepair']" routerDirection="forward" animated="true" canGoBack="true">
+            <b> 9) </b>
+            <img src="assets/img/onepair.PNG">
+            <ion-button fill="none"> 
+              <ion-icon slot="end" name="add"></ion-icon> 
+              One Pair
+            </ion-button>
+          </ion-item>
+
+          <!-- High Card item -->
+          <ion-item [routerLink]="['/highcard']" routerDirection="forward" animated="true" canGoBack="true">
+            <b> 10) </b>
+            <img src="assets/img/highcard.PNG">
+            <ion-button fill="none"> 
+              <ion-icon slot="end" name="add"></ion-icon> 
+              High Card
+            </ion-button>
+          </ion-item>
+
+
+        </ion-card-content>
+    </ion-row>
+  </ion-list>
+  <p padding><b>Note:</b> Ranking of suits, not hands, varies by Poker ruleset.</p>
+</div>
+</ion-content>

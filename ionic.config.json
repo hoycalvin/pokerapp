@@ -1,0 +1,7 @@
+{
+  "name": "pokerhands",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
